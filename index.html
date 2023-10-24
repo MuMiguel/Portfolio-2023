@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Murilo Miguel</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo">Portfo<span>lio.</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#learning">Learning</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    </div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, Guys! I am</h3>
+            <h1>Murilo Miguel</h1>
+            <p>Frontend <span>Jr</span></p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/murilo-miguel-993214162/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/MuMiguel" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=351933055773&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+            <a href="./CV2023.pdf" class="btn" target="_blank" download="Murilo-Miguel-CV.pdf">Dowload CV</a>
+        </div>
+        <div class="professional-container">
+            <div class="professional-box">
+                <div class="professional" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="professional" style="--i:1;">
+                    <i class='bx bxs-book-open' ></i>
+                    <h3>Dedicated Student</h3>
+                </div>
+                <div class="professional" style="--i:2;">
+                    <i class='bx bx-glasses' ></i>
+                    <h3>Freelancer</h3>
+                </div>
+                <div class="professional" style="--i:3;">
+                    <i class='bx bxs-keyboard' ></i>
+                    <h3>Gamer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="./images/home1.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/home (1).png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hello, learn a little more about me!</h3>
+            <p>Technology enthusiast and dedicated student, currently enrolled in Systems Analysis and Development at Estácio de Sá University. In parallel, I am developing my skills through a FullStack Java Developer course at the British School of Creative Arts and Technology (EBAC).</p>
+            <p>I worked for about 2 years at IBM, providing Windows support to clients such as Ambev, Carrefour, Michelin, Cielo, among others.</p>
+            <p>Now, I am seeking my first opportunity in the programming and development field.</p>
+            <h3>Learning Technologies</h3>
+            <div class="social-media" id="learning">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="Html 5" target="_blank"><i class='bx bxl-html5'></i></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="Css 3" target="_blank"><i class='bx bxl-css3' ></i></a>
+                <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" title="Bootstrap" target="_blank"><i class='bx bxl-bootstrap' ></i></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript" target="_blank"><i class='bx bxl-javascript' ></i></a>
+                <a href="https://api.jquery.com/" title="Jquery" target="_blank"><i class='bx bxl-jquery' ></i></a>
+                <a href="https://www.postgresql.org/" title="Postgresql" target="_blank"><i class='bx bxl-postgresql' ></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latests <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/calc-medias.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Grade calculator</h4>
+                    <p>Using HTML, CSS, and JavaScript. The purpose of this application would be to sum the student's grades, calculate the obtained average and display whether they passed or failed.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box" id="contact-list">
+                <img src="./images/agenda-contatos.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Contact List</h4>
+                    <p>Using HTML, CSS, and JavaScript, the primary function of the application is to add, store, and remove contacts.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/galeria.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Photos Gallery</h4>
+                    <p>Using HTML, CSS, and jQuery, in this application, you can add and remove new photos.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/to-do-list.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>To Do List</h4>
+                    <p>Made with HTML, CSS, and jQuery. The famous to-do list.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
